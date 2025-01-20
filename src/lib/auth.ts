@@ -15,10 +15,10 @@ export const { handle, signIn, signOut } = SvelteKitAuth({
     },
   },
   pages: {
-    signIn: '/login',
-    newUser: '/register',
-    signOut: '/settings',
-    verifyRequest: '/verify',
+    signIn: '/',
+    newUser: '/',
+    signOut: '/',
+    verifyRequest: '/',
   },
   providers: [
     Discord({

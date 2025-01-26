@@ -4,6 +4,7 @@ import {
   // presets
   presetAttributify,
   presetIcons,
+  presetTagify,
   presetTypography,
   presetUno,
   presetWebFonts,
@@ -20,7 +21,7 @@ export default defineConfig({
     vpack: 'flex flex-col items-center justify-center',
     hbox: 'flex flex-row',
     vbox: 'flex flex-col',
-    btn: 'select-none rounded px-4 h-10 bg-dark-4 hover:bg-dark-1 active:bg-dark-9 text-light font-bold border-none outline-none transition flex flex-row items-center justify-center gap-2',
+    btn: 'disabled:opacity-75 select-none rounded px-4 h-10 bg-dark-4 hover:bg-dark-1 active:bg-dark-9 text-light font-bold border-none outline-none transition flex flex-row items-center justify-center gap-2',
     input: 'select-none rounded px-4 h-10 bg-light-7 border-none outline-none transition flex flex-row items-center justify-center gap-2',
   },
   presets: [
@@ -34,6 +35,7 @@ export default defineConfig({
     }),
     presetTypography(),
     presetIcons(),
+    presetTagify(),
   ],
   transformers: [
     transformerAttributifyJsx(),

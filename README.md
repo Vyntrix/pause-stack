@@ -30,7 +30,10 @@ pnpm i
 ### Development
 
 Run and visit [localhost:3000](http://localhost:3000).
+Visit MailHog at [localhost:8025](http://localhost:8025).
 
 ```bash
 pnpm dev
+// and start docker
+docker compose up
 ```

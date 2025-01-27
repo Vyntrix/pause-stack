@@ -11,6 +11,8 @@
 - 🦾 [TypeScript](https://www.typescriptlang.org/)
 - ✨ [ESLint](https://github.com/antfu/eslint-config)
 
+- ✉️ MailHog for local email testing
+
 ## Getting Started
 
 ### GitHub Template
